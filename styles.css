@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    min-width: 300px;
+}
+.to_header{
+    /*background-color: #4da6ff;*/
+    background-image: url("todo.jpg");
+    padding: 30px 45px;
+    color:#0d2624;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+.to_input{
+    width: 50%;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-style: hidden;
+    border-radius: 10px;
+}
+.add_btn{
+    padding: 10px;
+    width: 30%;
+    cursor:pointer;
+    color:  #cc0000;
+    border-color:black;
+    border: none;
+}
+ul{
+    margin: 0px;
+    padding: 5px 0px 0px 0px;
+}
+ul li{
+    position: relative;
+    list-style-type: none;
+    cursor: pointer;
+    padding: 10px 6px 10px 40px;
+    background-color: #c6ebe8;
+}
+ul li:nth-child(odd){
+  background-color: #ecf8f7;
+}
+ul li:hover{
+    background-color: #3caaa1;
+}
+.btn_color{
+    color: black!important;
+    margin-right: 6px;
+}
+.todo{  
+    text-decoration: line-through;
+}
